@@ -112,8 +112,8 @@
 
   This plugin works in browser application as well. One code for Android, iOS, and browsers!
   </description>
-  <repo>https://github.com/mapsplugin/cordova-plugin-googlemaps.git</repo>
-  <issue>https://github.com/mapsplugin/cordova-plugin-googlemaps/issues</issue>
+  <repo>https://github.com/dais-set/cordova-plugin-googlemaps.git</repo>
+  <issue>https://github.com/dais-set/cordova-plugin-googlemaps/issues</issue>
   <author>Masashi Katsumata, Hirbod</author>
 
   <license>Apache-2.0</license>
@@ -129,10 +129,6 @@
 
   <!-- android -->
   <platform name="android">
-    <info>
-      Official document https://github.com/mapsplugin/cordova-plugin-googlemaps-doc/blob/master/v2.6.0/README.md Please consider to buy a beer for us 🍺 https://github.com/mapsplugin/cordova-plugin-googlemaps#buy-us-a-beer
-    </info>
-
     <js-module name="googlemaps-cdv-plugin" src="www/plugin-loader-for-android_ios.js">
       <clobbers target="plugin.google.maps"/>
     </js-module>
